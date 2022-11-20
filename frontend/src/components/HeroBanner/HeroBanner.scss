@@ -1,0 +1,46 @@
+.heroBanner {
+    height: 500px;
+    width: 100%;
+    background-image: url('../../assets/images/homeBackgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+
+    h1 {
+        color: var(--dark-gray);
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    p {
+        color: var(--white-color);
+        font-size: 2rem;
+        font-weight: 800;
+        padding-block: 2rem;
+    }
+
+    a {
+        padding: 1.5rem 3rem;
+        background-color: var(--black-color);
+        border-radius: 5px;
+        color: var(--white-color);
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.25s ease-in-out;
+
+        &:hover {
+            background-color: var(--dark-gray);
+        }
+    }
+}

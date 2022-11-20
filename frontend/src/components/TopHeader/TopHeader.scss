@@ -1,0 +1,16 @@
+.top-header {
+    background-color: var(--top-header-color);
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--white-color);
+    }
+}

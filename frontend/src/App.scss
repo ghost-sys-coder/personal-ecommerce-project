@@ -1,0 +1,13 @@
+.app {
+    background-color: var(--main-color);
+    font-family: var(--font-base);
+
+}
+
+.page-position {
+    position: absolute;
+    top: calc(50px + 15vh);
+    min-height: 100vh;
+    width: 100vw;
+    margin-top: 4rem;
+}
